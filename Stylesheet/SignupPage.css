@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(46, 196, 182, 0.08);
+  padding: 40px;
+}
+
+img {
+  width: 76px;
+  height: 80px;
+}
+
+#logosection p {
+  color: #737373;
+}
+
+#formsection {
+  background-color: #ffffff;
+  padding: 40px;
+}

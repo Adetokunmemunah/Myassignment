@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher</title>
+    <link rel="stylesheet" href="./Stylesheet/WPPusher.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Download</li>
+          <li>Learn More</li>
+          <li>Pricing</li>
+          <li>Help</li>
+          <li>Account</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Checkout</h1>
+        <hr />
+        <form action="POST">
+          <label for="fname">First Name</label><br />
+          <input type="text" id="fname" placeholder="Jane" /><br />
+
+          <label for="lname">Last Name</label><br />
+          <input type="text" id="lname" placeholder="Doe" /><br />
+
+          <label for="email">E-mail</label><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="janedoe@example.com"
+          /><br />
+          <hr />
+
+          <label for="credit-card">Credit Card</label><br />
+          <input
+            type="text"
+            id="credit-card"
+            name="credit-card"
+            placeholder="Credit Number MM/YY CVC"
+            required
+            oninput="formatCreditCard(this)"
+          /><br />
+          <hr />
+
+          <button type="submit">Buy WP Pusher</button>
+
+          <span>Need any help? Don't hesitate to contact support</span>
+
+          <button>Powered by stripe</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Freelancer</h2>
+        <h3><sup>$</sup>99 <sub>/year</sub></h3>
+        <p>Automatically renews after 1 year</p>
+
+        <ul>
+          <li>Use on 5 client sites</li>
+          <li>Private repositories</li>
+          <li>Email support</li>
+        </ul>
+
+        <h3>Need <strong>20</strong> client sites?</h3>
+        <p><a href="#top">Switch to the agency plan</a></p>
+
+        <p>
+          <em
+            >FTP is horrible to deal with. WP Pusher solves that issue, and the
+            customer is awesome!</em
+          >
+        </p>
+
+        <img src="" alt="Kirk's Beard" />
+        <p>Kirk Beard</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2018 WP Pusher IVS . <a href="#top">Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
