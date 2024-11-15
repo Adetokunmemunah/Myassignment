@@ -25,12 +25,12 @@ h1 {
   align-items: center;
   text-align: center;
   min-width: 300px;
-  max-width: 90%;
+  max-width: 70%;
   border-radius: 6px;
   background-color: rgb(240, 198, 240);
   color: purple;
+  margin-top: 0 auto;
   padding: 1rem;
-  margin: 0 auto;
 }
 
 h2 {
@@ -42,7 +42,7 @@ h2 {
   width: 100%;
   max-width: 300px;
   height: auto;
-  padding-bottom: 1rem;
+  padding-bottom: 15px;
 }
 
 ul {
@@ -52,7 +52,7 @@ ul {
 }
 
 li {
-  margin: 20px 0;
+  margin: 28px 0;
 }
 
 li a {
@@ -61,7 +61,7 @@ li a {
   padding: 12px 20px;
   color: plum;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: block;
   text-align: center;
 }
@@ -73,7 +73,7 @@ li a:hover {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Smaller header for mobile */
     padding: 1rem;
   }
 
@@ -83,12 +83,12 @@ li a:hover {
   }
 
   .subcontainer-2 {
-    width: 90%;
+    width: 90%; /* Use most of the screen width on mobile */
     max-width: 250px;
   }
 
   li a {
-    font-size: 1rem;
+    font-size: 1rem; /* Slightly smaller text for mobile */
     padding: 10px 20px;
   }
 }

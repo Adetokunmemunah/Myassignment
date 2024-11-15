@@ -18,67 +18,78 @@
       </ul>
     </nav>
     <main>
-      <section id="contact-1">
-        <div>
+      <section id="container-1">
+        <div class="heading">
           <h1>Checkout</h1>
         </div>
-        <div>
-          <img src="./Assets/2.png" alt="An Icon" />
-          <h2>Your basic information</h2>
-        </div>
         <form action="POST">
-          <div>
-            <div>
-              <label for="fname">First Name</label><br />
-              <input type="text" id="fname" name="fname" /><br />
+          <div class="content-1">
+            <div class="icon-container">
+              <img src="./Assets/2.png" alt="An Icon" />
+              <h2>Your basic information</h2>
+            </div>
+            <div class="subContent1">
+              <div class="details">
+                <label for="fname">First Name</label><br />
+                <input type="text" id="fname" placeholder="Jane" /><br />
+              </div>
+
+              <div class="details">
+                <label for="lname">Last Name</label><br />
+                <input type="text" id="lname" placeholder="Doe" /><br />
+              </div>
             </div>
 
-            <div>
-              <label for="lname">Last Name</label><br />
-              <input type="text" id="lname" name="lname" /><br />
+            <div class="mail">
+              <label for="email">E-mail</label><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="janedoe@example.com"
+              /><br />
             </div>
           </div>
 
-          <div>
-            <label for="email">E-mail</label><br />
-            <input type="email" id="email" name="email" /><br />
-          </div>
-
-          <div>
-            <div>
+          <div class="content-2">
+            <div class="icon-container">
               <img src="./Assets/2.png" alt="An Icon" />
               <h2>Your payment information</h2>
             </div>
 
-            <div>
+            <div class="card">
               <label for="credit-card">Credit Card</label><br />
-              <input type="text" id="credit-card" name="credit-card" /><br />
+              <input
+                type="text"
+                id="credit-card"
+                name="credit-card"
+                placeholder="Credit Number  MM/YY CVC"
+              /><br />
             </div>
           </div>
 
-          <button>Buy WP Pusher</button>
+          <div class="Last">
+            <button type="submit" class="buy">Buy WP Pusher</button>
+            <div class="icon-container-2">
+              <img src="./Assets/Mask.png" alt="An Icon" />
+              <p>
+                <strong>Need any help?</strong> Don't hesitate to contact
+                support
+              </p>
+            </div>
 
-          <div>
-            <img src="./Assets/Mask.png" alt="An Icon" />
-            <p>
-              <strong>Need any help?</strong> Don't hesitate to contact support
-            </p>
+            <button class="powered">Powered by <strong>stripe</strong></button>
           </div>
-
-          <footer>
-            <button>Poweredby <strong>stripe</strong></button>
-          </footer>
         </form>
       </section>
 
-      <section>
-        <div>
+      <section id="container-2">
+        <div class="content-3">
           <h2>Freelancer</h2>
-          <p><sup>$</sup> 99 <sub>/year</sub></p>
+          <h3 class="price-tag"><sup>$</sup>99<sub>/year</sub></h3>
           <p>Automatically renews after 1 year</p>
         </div>
 
-        <div>
+        <div class="content-4">
           <ul>
             <li>Use on 5 client sites</li>
             <li>Private repositories</li>
@@ -86,18 +97,20 @@
           </ul>
         </div>
 
-        <div>
+        <div class="content-5">
           <p>Need <strong>20</strong> client site?</p>
-          <p><a href="#top">Switch to the agancy plan</a></p>
+          <p><span>Switch to the Agancy plan</span></p>
         </div>
 
-        <div>
+        <div class="content-6">
           <p>
             FTP is horrible to deal with. <strong>WP Pusher</strong> solves that
-            issue, and the customer is awesome
+            issue, and the customer support is awesome
           </p>
-          <img src="./Assets/Bitmap.png" alt="An image Kirk Beard" />
-          <p>Kirk Beard</p>
+        </div>
+        <div class="content-7">
+          <img src="./Assets/Bitmap.png" alt="image of Kirk Beard" />
+          <p><strong>Kirk Beard</strong></p>
         </div>
       </section>
     </main>
