@@ -1,5 +1,168 @@
+:root {
+  --cir-accent-400: #0065fe;
+  --cir-accent-100: #005ae2;
+  --cir-primary-400: #0065fe;
+
+  --cir-neutral-100: hsl(232, 12%, 13%);
+  --cir-neutral-900: #141414;
+  --ff-primary: "Be Vietnam Pro", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px; 
+  background-color: #f5f5f5;
+} */
+
+/* header img {
+  max-height: 50px; 
+} */
+
+/* header nav {
+  display: flex; 
+  gap: 20px; 
+}
+
+header nav ul {
+  display: flex; 
+  gap: 15px;
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+} */
+
+/* header nav ul ul {
+  display: none;
+  position: absolute; 
+  background-color: white;
+  list-style: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+header nav ul li {
+  position: relative; 
+}
+
+header nav ul li:hover > ul {
+  display: block;
+} */
+
+/* header button {
+  padding: 5px 10px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #0056b3; 
+}
+*/
+
+.primary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.primary-header img {
+  height: 50px;
+}
+
+.primary-header nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center-nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right-nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.right-nav button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.right-nav button a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-nav button:hover {
+  background-color: #0056b3;
+}
+
+.FAQ {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.FAQ-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.faq-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.faq-item:hover {
+  background: #f1f1f1;
+}
+.faq-item summary {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
 }
