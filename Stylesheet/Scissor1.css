@@ -488,5 +488,57 @@ footer {
     url(/Assets/footer\ bg\ right.svg);
   background-position: bottom left, bottom right;
   background-repeat: no-repeat, no-repeat;
-  background-size: 26rem, 20rem;
+  background-size: 22rem, 20rem;
+  height: 440px;
+}
+
+.footer-container {
+  max-width: 1170px;
+  padding: 4rem 2rem 4rem 8rem;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 20%;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-icon {
+  padding-right: 20px;
+}
+
+.footer-icon img {
+  width: 120px;
+}
+
+footer ul {
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.col-2 {
+  margin-top: 30px;
+}
+
+.Social-Links {
+  padding: 18px 8px;
+}
+
+.fa-brands {
+  padding-right: 12px;
+  font-size: 20px;
 }
