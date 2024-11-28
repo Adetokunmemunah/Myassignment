@@ -7,13 +7,10 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   line-height: 1.7;
 }
 
-Header {
+header {
   max-width: 440px;
   min-width: 240px;
   padding: 60px 34px;
@@ -54,4 +51,60 @@ section h1 {
 
 .main-content {
   padding: 20px 34px;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    line-height: 1.5;
+  }
+
+  header {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+
+  main {
+    min-width: 100%;
+    padding: 10px;
+  }
+
+  section {
+    margin: 30px 10px;
+    padding: 10px;
+  }
+
+  section h1 {
+    width: auto;
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  .main-content {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 20px 15px;
+  }
+
+  section {
+    margin: 20px 5px;
+  }
+
+  section h1 {
+    font-size: 1rem;
+    padding: 6px;
+  }
+
+  .main-content {
+    padding: 5px 15px;
+  }
 }

@@ -7,8 +7,10 @@
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
+  padding: 60px;
   background-color: rgba(46, 196, 182, 0.08);
 }
 
@@ -18,26 +20,26 @@ img {
 }
 
 #logosection {
-  max-width: 400px;
-  margin: 0 0 0 50px;
+  max-width: 380px;
 }
 
 #logosection h1 {
-  padding: 12px 0;
+  font-size: 40px;
+  padding: 20px 0;
 }
 
 #logosection p {
   color: #737373;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 #formsection {
-  margin: 50px 60px 50px 0;
+  /* margin: 50px 60px 50px 0; */
   border-radius: 6px 0px 0px 0px;
   background-color: #ffffff;
   padding: 30px;
-  font-size: 12px;
+  font-size: 14px;
   box-shadow: 0px 4px 50px 0px #0408131a;
 }
 
@@ -116,6 +118,9 @@ footer a {
     flex-direction: column;
   }
 
+  #logosection {
+    margin-bottom: 30px;
+  }
   .formrow {
     flex-direction: column;
   }
